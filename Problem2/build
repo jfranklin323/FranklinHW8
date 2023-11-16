@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Building AnalogIn application"
+g++ -Wall AnalogIn.cpp test_analog.cpp -o AnalogInBuild
